@@ -133,3 +133,14 @@ void Journal::WatchMarks()
 		cout<< mark[i]<< endl;
 	}
 }
+
+void BestStudent::DetectBest() {
+	int counter = 0;
+	for (int i = 0; i < nm; i++)
+		if (marks >= 5)
+			counter++;
+	if (counter == nm)
+		cout << "Best student detected"
+	else
+	cout << " Here is no good students";
+}
