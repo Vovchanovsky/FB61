@@ -31,3 +31,7 @@ private:
 	int *mark = new int[nm];
 	void WatchMarks();
 };
+
+class SuperStud : private Student {
+	
+};
